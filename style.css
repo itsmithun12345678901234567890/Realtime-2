@@ -1,34 +1,21 @@
-.heading{
+.heading {
     font-size:23px;
-    width:100%;
+    width: 100%;
     margin:0px;
-    box-shadow:5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
 }
 
-.heading_div{
-    float: none;
-    background:white;
-    padding: 10px;
-    border-radius: 20px;
-    color:black;
-    box-shadow: 5px 5px 5px grey;
-}
-
-.heading_div2{
-    font-size:18px;
-}
-
-.result_para_tag{
-    box-shadow:5px 5px 5px grey;
-    font-size: 20px;
+.note{
+font-size:15px;
+color: black;
 }
 
 .copy_right_footer{
-    position:fixed;
-    color:white;
+    position: fixed;
+    color: white;
     bottom:0;
-    width: 100%;
-    background-color:grey;
+    width:100%;
+    background-color: gray;
     line-height: 3;
     text-align: center;
 }
@@ -36,15 +23,5 @@
 canvas{
     border: 5px solid white;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px grey;
-    margin-top: 150px;
-    
-        animation-name:Color;
-        animation-duration:3s;
-        animation-iteration-count:infinite;
-}
-
-@keyframes Color{
-    from {box-shadow: 1px 1px 40px red};
-    to{box-shadow:yellow};
+    box-shadow: 5px 5px 5px gray; 
 }
